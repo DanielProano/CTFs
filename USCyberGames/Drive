@@ -1,0 +1,17 @@
+# Drive (forensics)
+
+The challenge provides a file which I can decompress and get more files.
+
+***
+
+## Attempts
+
+I first spent half an hour getting a feel for the hierarchy and depth of the files. There were three files in total: a text file
+
+that provided vague instructions, a .001 file which contained a lot of different files that I explored, and finally a .zip file which repeated
+
+all of these files again and again, making this an extremely large file system. I saw that there were pngs avaliable that did not get outputted when 
+
+I binwalked so I tried to manually extract them. This took awhile so I ended it early and saw that it wasn't anything useful. I then got the idea to 
+
+String some files and see their contents and thats when I found the flag in one of the internal files.
