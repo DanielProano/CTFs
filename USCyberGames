@@ -1,0 +1,21 @@
+# Cookie (web challenge)
+
+***
+
+## Description
+
+When simply given a website, find the flag. The challenge is named cookie and the picture is of a mouse with a cookie, hinting that
+
+we need to first look at the cookies.
+
+## Attempts
+
+I spent an hour trying to find any clues. The site as very minimalistic and I didn't find much at first. Then
+
+I checked /robots.txt and found clue #2, which lead me to /admin. There, I found the user and pass to login.
+
+I found the fourth clue within the home page. I didn't have the first clue so I looked around for a little bit.
+
+I came back to the cookie which I visited first and realized I could decode it, which when I did, revealed the first 
+
+clue. Putting them together and converting it from Base64, I found the flag.
