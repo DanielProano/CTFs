@@ -1,0 +1,19 @@
+# Silent Signal
+
+We are given a pcap file
+
+# Process
+
+I first tried putting the file in Wireshark. I noticed there was a warning that
+
+the file was cut short or imporperly formatted. I then looked throught the file and 
+
+then tried using tshark on the pcap. I found nothing interesting. Then, I got a clue
+
+from the title, that the signal was silent and began looking for more creative ways
+
+to hide the flag, eventually figuring out that the times listed with the file were 
+
+important. Using those times, I found the differences and converted them to chars,
+
+finding the flag
