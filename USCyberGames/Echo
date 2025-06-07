@@ -1,0 +1,9 @@
+# Echo
+
+We are provided a .jpg
+
+# Process
+
+I started by binwalking and extracting some files. I noticed that the files were usually large, unreasonably so. Therefore, I concluded that I should
+
+not be extracting the other files within the image. I then did a grep and found the flag
