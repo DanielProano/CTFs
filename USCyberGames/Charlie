@@ -1,0 +1,13 @@
+# Charlie (forensics)
+
+Find the flag
+
+***
+
+## Process
+
+We are provided a file with several other files within it. While looking throuhg them, I noticed they didn't lead anywhere, so the 
+
+flag must be contained within the file itself. I looked over txt file and found that it was actually a base64 encoded jpg. 
+
+I viewed the image and got the flag.
